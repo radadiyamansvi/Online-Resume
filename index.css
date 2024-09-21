@@ -1,0 +1,353 @@
+/* Reset some default styles */
+* {
+    scroll-behavior: smooth;
+}
+
+/* Reset some default styles for common HTML elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #303030; /* Dark background color */
+    color: #ffffff; /* White text color */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header section with animation */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #333;
+    color: #fff;
+    animation: fadeInUp 1s ease; /* Fade in animation */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    animation: fadeInUp 1s ease 0.5s; /* Delayed fade in animation */
+}
+
+/* Navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap to the next line on smaller screens */
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 5px; /* Add margin between navbar items */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* Style the main sections with animations */
+section {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease; /* Fade in animation */
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+}
+
+/* Style the footer with animation */
+footer {
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    padding: 1rem 0;
+    clear: both;
+    animation: fadeInUp 1s ease; /* Fade in animation */
+}
+
+/* Add animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Reset some default styles for specific elements */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style the main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Style headings */
+h2 {
+    color: #333;
+}
+
+/* Style the Project section */
+#Project {
+    margin-bottom: 20px;
+}
+
+.pj {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*Image style*/
+.Mansvi{
+width: 350px;
+height: 520px;
+}
+
+/* Style the Education section */
+#Education {
+    margin-bottom: 20px;
+}
+
+.ed {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sen {
+    padding-left: 18px;
+}
+
+/* Style the Skills section */
+#Skills {
+    margin-bottom: 20px;
+}
+/* Hobbies Section */
+.hob {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    width: 42rem;
+}
+.sk {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cod {
+    background-color: #635f5f;
+    padding: 6px;
+    border-radius: 3px;
+    color: black;
+    font-size: medium;
+    color: white;
+}
+
+.cs {
+    margin-top: 10px;
+}
+
+/* Style skill items */
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Style the Contact section */
+#Contact {
+    margin-bottom: 20px;
+}
+
+.co {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style addresses */
+p.address {
+    font-weight: bold;
+}
+
+.city {
+    font-weight: bold;
+    color: white;
+    padding-left: 73px;
+}
+
+/* Style contact details */
+h4 {
+    margin-bottom: 5px;
+}
+
+/* Style bullets and text color for skills section */
+#Skills ul, #Contact ul {
+    list-style-type: disc; /* Use bullet points (disc style) */
+    color: white; /* Set text color to white */
+}
+ 
+/* Education Section */
+table {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+th {
+    background-color:#635f5f;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+tr:hover {
+    background-color: #303030;
+} 
+.dec {
+    background-color: #f1f1f1;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+   /* Table */
+    table {
+        border: 2px solid #000;
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px auto;
+        overflow-x: auto;
+        max-width: 100%; 
+        display: block;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        white-space: nowrap;
+    }
+
+    th {
+        background-color: #635f5f;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+
+    tr:hover {
+        background-color: #303030;
+    }
+
+    
+    .hob{
+        background-color: #f1f1f1;
+        padding: 10px;
+        border-radius: 5px;
+        width: auto;
+    }
+
+    ul .cod {
+        font-size: 14px;
+    }
+
+    ul li h4 {
+        font-size: 14px;
+    }
+
+    #Skills ul, #Contact ul {
+        margin-left: 0.7rem;
+        list-style-type: disc;
+        color: white;
+    }
+    footer {
+        padding: 10px;
+    }
+
+    .container img.Dhruvil {
+        width: 100%; 
+        height: auto; 
+        margin: 0;
+    }
+}
+
+
+
