@@ -157,9 +157,15 @@ h2 {
 
 /*Image style*/
 .Mansvi{
-width: 350px;
-height: 520px;
+width: 320px;
+margin: auto;
+display: flex;
+height: 420px;
+border-radius: 20px;
+border: 5px solid #000;
+margin-bottom: 30px;
 }
+.Hobbies{ margin-top: 40px;}
 
 /* Style the Education section */
 #Education {
@@ -333,7 +339,7 @@ tr:hover {
         font-size: 14px;
     }
 
-    #Skills ul, #Contact ul {
+    #Skills ul, #Contact ul , #Hobbies ul {
         margin-left: 0.7rem;
         list-style-type: disc;
         color: white;
